@@ -18,5 +18,12 @@
     "assets/printed/v5/printed-airway.jpg",
     "assets/printed/v5/printed-gpu-interface.jpg"
   ],
-  "portrait_cover": "assets/printed/v5/printed-gpu-interface.jpg"
+  "portrait_cover": "assets/printed/v5/printed-gpu-interface.jpg",
+  "airflow_evidence": {
+    "comparison": "earlier v2 vs v4; not the Thingiverse original and not v5",
+    "imposed_flow_cfm": 20,
+    "strict_convergence_reached": false,
+    "report": "docs/AIRFLOW.md",
+    "v5_simulated": false
+  }
 }

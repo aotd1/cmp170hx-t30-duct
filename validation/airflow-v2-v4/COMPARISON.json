@@ -1,0 +1,602 @@
+{
+  "comparison": {
+    "printed_path_loss_Pa": {
+      "v2_check": 1.1844885214670864,
+      "v4_check": 0.5835028795105162,
+      "relative_change_percent": -50.73798783733253
+    },
+    "including_card_taper_loss_Pa": {
+      "v2_check": 1.7039897016310395,
+      "v4_check": 0.7613211153179806,
+      "relative_change_percent": -55.32126076881493
+    },
+    "after_taper_CV": {
+      "v2_check": 0.4379016546030245,
+      "v4_check": 0.323402439929378,
+      "relative_change_percent": -26.14724412892311
+    },
+    "after_taper_crossflow_rms_m_s": {
+      "v2_check": 0.4017269240116249,
+      "v4_check": 0.24277049912126625,
+      "relative_change_percent": -39.56827770044084
+    },
+    "after_taper_reverse_area_fraction": {
+      "v2_check": 0.053508167178082496,
+      "v4_check": 0.02003223722951473,
+      "relative_change_percent": -62.56228107599966
+    }
+  },
+  "cases": {
+    "v2_check": {
+      "case": "v2_check",
+      "metadata": {
+        "geometry": {
+          "source": "aero-v2/CMP170HX_T30_smooth_POS1_assembly.stl",
+          "zmax": 0.094,
+          "lower": -0.046,
+          "upper": 0.134,
+          "bounds": [
+            [
+              -0.03695000076293945,
+              -0.016299999237060547,
+              -0.046
+            ],
+            [
+              0.07605000305175781,
+              0.09819999694824219,
+              0.134
+            ]
+          ],
+          "volume_m3": 0.0011279697291662024,
+          "inlet_area_m2": 0.010024691265676348,
+          "outlet_area_m2": 0.003421894925146102,
+          "flange_open_area_m2": 0.0024596765262710186,
+          "watertight": true
+        },
+        "mesh_base_m": 0.004,
+        "flow_cfm": 20,
+        "flow_m3_s": 0.009438949,
+        "rho_kg_m3": 1.204,
+        "nu_m2_s": 1.51e-05,
+        "inlet_turbulence_intensity": 0.05,
+        "turbulence_length_m": 0.005,
+        "heat_transfer": false,
+        "fan_rotor_swirl": false,
+        "heatsink_fins": false,
+        "gpu_mount_flange": true,
+        "M3_bores_sealed": true,
+        "ideal_receiver_no_heatsink": true,
+        "flange_mesh_cell_m": 0.0005,
+        "boundary_layers_added": false,
+        "wall_mesh_nominal_m": 0.001,
+        "layered_mesh_rejected_due_quality": true,
+        "measured_6mm_card_mouth": true,
+        "main_window_front_mm": [
+          94.3,
+          23.65
+        ],
+        "main_window_deep_width_mm": 92.5,
+        "main_window_source_Y_front_mm": [
+          1.9,
+          96.2
+        ],
+        "main_window_source_Y_deep_mm": [
+          2.8,
+          95.3
+        ],
+        "unmeasured_card_details": "height through6mm and EPS notch assumed constant; small ports source nominal; no fins or actual downstream heatsink",
+        "flange_entry_mesh_cell_m": 0.00025,
+        "paired_final_numerics": "SIMPLE p0.2 U/k/omega0.3 from iteration1",
+        "bootstrap": "mapped from old smooth_mount600, under different old receiver; final solution checked independently"
+      },
+      "profiles": {
+        "mid": {
+          "area_m2": 0.006292918207426022,
+          "flow_m3_s": 0.009345173093294674,
+          "mean_axial_velocity_m_s": 1.4850301219975826,
+          "axial_velocity_CV": 0.23994987943484564,
+          "reverse_flow_area_fraction": 0.0,
+          "static_pressure_area_mean_Pa": 10.732402721747896,
+          "total_pressure_flux_mean_Pa": 12.413834094365306,
+          "crossflow_rms_m_s": 0.639370372227081
+        },
+        "downstream": {
+          "area_m2": 0.0034218953094581335,
+          "flow_m3_s": 0.00930211892331319,
+          "mean_axial_velocity_m_s": 2.7184113136372385,
+          "axial_velocity_CV": 0.6709239990942846,
+          "reverse_flow_area_fraction": 0.13189495105532434,
+          "static_pressure_area_mean_Pa": 0.5266430095099149,
+          "total_pressure_flux_mean_Pa": 10.254397721805097,
+          "crossflow_rms_m_s": 0.5437741543060879
+        },
+        "afterTaper": {
+          "area_m2": 0.0026262278116258022,
+          "flow_m3_s": 0.009152976499562133,
+          "mean_axial_velocity_m_s": 3.4852180222308506,
+          "axial_velocity_CV": 0.4379016546030245,
+          "reverse_flow_area_fraction": 0.053508167178082496,
+          "static_pressure_area_mean_Pa": 0.03659210531958102,
+          "total_pressure_flux_mean_Pa": 10.737175143540854,
+          "crossflow_rms_m_s": 0.4017269240116249
+        },
+        "beforeFlange": {
+          "area_m2": 0.0028875253716251115,
+          "flow_m3_s": 0.009429404149005376,
+          "mean_axial_velocity_m_s": 3.2655658168982487,
+          "axial_velocity_CV": 0.4050756084539405,
+          "reverse_flow_area_fraction": 0.016878872658047956,
+          "static_pressure_area_mean_Pa": 3.7746506810420493,
+          "total_pressure_flux_mean_Pa": 12.117841917768656,
+          "crossflow_rms_m_s": 0.9312615830663791
+        },
+        "fan": {
+          "area_m2": 0.010024036093513615,
+          "flow_m3_s": 0.00940213526638916,
+          "mean_axial_velocity_m_s": 0.9379590395203308,
+          "axial_velocity_CV": 0.22627468263229178,
+          "reverse_flow_area_fraction": 0.0029410631034686567,
+          "static_pressure_area_mean_Pa": 11.853366421001946,
+          "total_pressure_flux_mean_Pa": 12.441164845171894,
+          "crossflow_rms_m_s": 0.16186771066963832
+        },
+        "gpu": {
+          "area_m2": 0.002452391005074901,
+          "flow_m3_s": 0.009315513048112567,
+          "mean_axial_velocity_m_s": 3.7985431478240366,
+          "axial_velocity_CV": 0.4057686332425604,
+          "reverse_flow_area_fraction": 0.044807954532533924,
+          "static_pressure_area_mean_Pa": -0.8605535822169047,
+          "total_pressure_flux_mean_Pa": 11.256676323704808,
+          "crossflow_rms_m_s": 0.3971885719946904
+        },
+        "nearDownstream": {
+          "area_m2": 0.0026582289432429754,
+          "flow_m3_s": 0.00941406421880814,
+          "mean_axial_velocity_m_s": 3.5414798423356295,
+          "axial_velocity_CV": 0.4891124647517887,
+          "reverse_flow_area_fraction": 0.07373880667948603,
+          "static_pressure_area_mean_Pa": -0.8656857743300121,
+          "total_pressure_flux_mean_Pa": 11.113905320918205,
+          "crossflow_rms_m_s": 0.4079811328391965
+        },
+        "upstream": {
+          "area_m2": 0.010024035124863943,
+          "flow_m3_s": 0.009405840768559805,
+          "mean_axial_velocity_m_s": 0.9383287918883336,
+          "axial_velocity_CV": 0.1677289822922198,
+          "reverse_flow_area_fraction": 0.0,
+          "static_pressure_area_mean_Pa": 11.880970942240282,
+          "total_pressure_flux_mean_Pa": 12.444561513041702,
+          "crossflow_rms_m_s": 0.10563887757225777
+        }
+      },
+      "inletPressure": {
+        "last": [
+          600.0,
+          9.909546311
+        ],
+        "last100_minmax": 8.7069581934,
+        "last100_max": 9.909546311
+      },
+      "outletPressure": {
+        "last": [
+          600.0,
+          0.0
+        ],
+        "last100_minmax": 0.0,
+        "last100_max": 0.0
+      },
+      "inletFlow": {
+        "last": [
+          600.0,
+          -0.009438949
+        ],
+        "last100_minmax": -0.009438949,
+        "last100_max": -0.009438949
+      },
+      "outletFlow": {
+        "last": [
+          600.0,
+          0.0094386003567
+        ],
+        "last100_minmax": 0.0094385782504,
+        "last100_max": 0.0094392969817
+      },
+      "mass_balance_fraction": 3.693666530042527e-05,
+      "transition_total_pressure_loss_Pa": 1.1844885214670864,
+      "transition_plus_0_5mm_loss_Pa": 1.327259524253689,
+      "total_pressure_loss_Pa": 2.190163791236605,
+      "loss_coefficient_outlet_dynamic": 0.47815231340543607,
+      "residuals_last": {
+        "Ux": {
+          "initial": 0.002381338919,
+          "final": 5.532412061e-05
+        },
+        "Uy": {
+          "initial": 0.002908952421,
+          "final": 6.776840515e-05
+        },
+        "Uz": {
+          "initial": 0.001022959006,
+          "final": 2.427527787e-05
+        },
+        "p": {
+          "initial": 0.004782664095,
+          "final": 0.0001637265007
+        },
+        "k": {
+          "initial": 0.004851938953,
+          "final": 8.216598512e-05
+        },
+        "omega": {
+          "initial": 9.609788888e-05,
+          "final": 1.891901321e-06
+        }
+      },
+      "solver_converged": false,
+      "solver_end": true,
+      "mesh_quality": {
+        "optional_full_geometry_check_passed": false,
+        "cells": 832673,
+        "full_check_tail": "faces with concave angles to set concaveFaces\n    Face flatness (1 = flat, 0 = butterfly) : min = 0.741321763  average = 0.9997269628\n   *There are 1 faces with ratio between projected and actual area < 0.8\n    Minimum ratio (minimum flatness, maximum warpage) = 0.741321763\n  <<Writing 1 warped faces to set warpedFaces\n    Cell determinant (wellposedness) : minimum: 0.008772647707 average: 1.492171022\n    Cell determinant check OK.\n ***Concave cells (using face planes) found, number of cells: 25255\n  <<Writing 25255 concave cells to set concaveCells\n    Face interpolation weight : minimum: 0.096592584 average: 0.4812787301\n    Face interpolation weight check OK.\n    Face volume ratio : minimum: 0.01696224645 average: 0.903521806\n    Face volume ratio check OK.\n\nFailed 2 mesh checks.\n\nEnd\n\n"
+      },
+      "fan_to_afterTaper_loss_Pa": 1.7039897016310395,
+      "sample_flux_relative_errors": {
+        "mid": -0.009934994532264763,
+        "downstream": -0.014496325458142723,
+        "afterTaper": -0.030297070196890208,
+        "beforeFlange": -0.0010112196807742224,
+        "fan": -0.003900194143526048,
+        "gpu": -0.013077298318640462,
+        "nearDownstream": -0.002636393224696998,
+        "upstream": -0.003507618426606185
+      },
+      "last100_samples": [
+        {
+          "iteration": 500.0,
+          "printed_path_loss_Pa": 1.0811303371708867,
+          "including_card_taper_loss_Pa": 1.5849160793461756,
+          "after_taper_CV": 0.4543262340186355,
+          "after_taper_crossflow_rms_m_s": 0.39794949901443066
+        },
+        {
+          "iteration": 525.0,
+          "printed_path_loss_Pa": 1.0594582152976368,
+          "including_card_taper_loss_Pa": 1.5437680176366424,
+          "after_taper_CV": 0.4500061008345108,
+          "after_taper_crossflow_rms_m_s": 0.40138995428017027
+        },
+        {
+          "iteration": 550.0,
+          "printed_path_loss_Pa": 1.1313238211998016,
+          "including_card_taper_loss_Pa": 1.6064679388839966,
+          "after_taper_CV": 0.4518735045372814,
+          "after_taper_crossflow_rms_m_s": 0.3946683365251232
+        },
+        {
+          "iteration": 575.0,
+          "printed_path_loss_Pa": 1.155012964057768,
+          "including_card_taper_loss_Pa": 1.6329287840538598,
+          "after_taper_CV": 0.44475240804010796,
+          "after_taper_crossflow_rms_m_s": 0.4382859790816995
+        },
+        {
+          "iteration": 600.0,
+          "printed_path_loss_Pa": 1.1844885212244236,
+          "including_card_taper_loss_Pa": 1.7039897013000243,
+          "after_taper_CV": 0.4379016546090921,
+          "after_taper_crossflow_rms_m_s": 0.4017269239922696
+        }
+      ],
+      "last100_ranges": {
+        "printed_path_loss_Pa": [
+          1.0594582152976368,
+          1.1844885212244236
+        ],
+        "including_card_taper_loss_Pa": [
+          1.5437680176366424,
+          1.7039897013000243
+        ],
+        "after_taper_CV": [
+          0.4379016546090921,
+          0.4543262340186355
+        ],
+        "after_taper_crossflow_rms_m_s": [
+          0.3946683365251232,
+          0.4382859790816995
+        ]
+      },
+      "strict_initial_residual_target_all_1e_5_met": false
+    },
+    "v4_check": {
+      "case": "v4_check",
+      "metadata": {
+        "geometry": {
+          "source": "aero-v4/CMP170HX_T30_smooth_POS1_v4_assembly.stl",
+          "zmax": 0.094,
+          "lower": -0.046,
+          "upper": 0.134,
+          "bounds": [
+            [
+              -0.03695000076293945,
+              -0.016299999237060547,
+              -0.046
+            ],
+            [
+              0.07605000305175781,
+              0.09819999694824219,
+              0.134
+            ]
+          ],
+          "volume_m3": 0.0011191727660398393,
+          "inlet_area_m2": 0.010024691265676348,
+          "outlet_area_m2": 0.003421894925146102,
+          "flange_open_area_m2": 0.0026613757703436813,
+          "watertight": true
+        },
+        "mesh_base_m": 0.004,
+        "flow_cfm": 20,
+        "flow_m3_s": 0.009438949,
+        "rho_kg_m3": 1.204,
+        "nu_m2_s": 1.51e-05,
+        "inlet_turbulence_intensity": 0.05,
+        "turbulence_length_m": 0.005,
+        "heat_transfer": false,
+        "fan_rotor_swirl": false,
+        "heatsink_fins": false,
+        "gpu_mount_flange": true,
+        "M3_bores_sealed": true,
+        "ideal_receiver_no_heatsink": true,
+        "flange_mesh_cell_m": 0.0005,
+        "boundary_layers_added": false,
+        "wall_mesh_nominal_m": 0.001,
+        "layered_mesh_rejected_due_quality": true,
+        "measured_6mm_card_mouth": true,
+        "main_window_front_mm": [
+          94.3,
+          23.65
+        ],
+        "main_window_deep_width_mm": 92.5,
+        "main_window_source_Y_front_mm": [
+          1.9,
+          96.2
+        ],
+        "main_window_source_Y_deep_mm": [
+          2.8,
+          95.3
+        ],
+        "unmeasured_card_details": "height through6mm and EPS notch assumed constant; small ports source nominal; no fins or actual downstream heatsink",
+        "flange_entry_mesh_cell_m": 0.00025,
+        "paired_final_numerics": "SIMPLE p0.2 U/k/omega0.3 from iteration1",
+        "bootstrap": "mapped from old smooth_mount600, under different old receiver; final solution checked independently"
+      },
+      "profiles": {
+        "mid": {
+          "area_m2": 0.006059397735169165,
+          "flow_m3_s": 0.00934474739714482,
+          "mean_axial_velocity_m_s": 1.542190792808872,
+          "axial_velocity_CV": 0.21554070204650727,
+          "reverse_flow_area_fraction": 0.0,
+          "static_pressure_area_mean_Pa": 6.616999149892737,
+          "total_pressure_flux_mean_Pa": 8.390913026175323,
+          "crossflow_rms_m_s": 0.6291505791152862
+        },
+        "downstream": {
+          "area_m2": 0.0034218953094581335,
+          "flow_m3_s": 0.009282839464544676,
+          "mean_axial_velocity_m_s": 2.7127771673454966,
+          "axial_velocity_CV": 0.5929299779705839,
+          "reverse_flow_area_fraction": 0.12443129262373243,
+          "static_pressure_area_mean_Pa": -1.0851451817137305,
+          "total_pressure_flux_mean_Pa": 7.261318093486438,
+          "crossflow_rms_m_s": 0.31629210083462106
+        },
+        "afterTaper": {
+          "area_m2": 0.002626227362586363,
+          "flow_m3_s": 0.00912112846156907,
+          "mean_axial_velocity_m_s": 3.473091702382689,
+          "axial_velocity_CV": 0.323402439929378,
+          "reverse_flow_area_fraction": 0.02003223722951473,
+          "static_pressure_area_mean_Pa": -1.4201297391320762,
+          "total_pressure_flux_mean_Pa": 7.661078400338126,
+          "crossflow_rms_m_s": 0.24277049912126625
+        },
+        "beforeFlange": {
+          "area_m2": 0.0030541075330182146,
+          "flow_m3_s": 0.0094363772269967,
+          "mean_axial_velocity_m_s": 3.0897331298846646,
+          "axial_velocity_CV": 0.36502443384004996,
+          "reverse_flow_area_fraction": 0.008500742484407471,
+          "static_pressure_area_mean_Pa": 0.9234790452978143,
+          "total_pressure_flux_mean_Pa": 8.18936698576237,
+          "crossflow_rms_m_s": 0.7320865402249594
+        },
+        "fan": {
+          "area_m2": 0.01002403608776147,
+          "flow_m3_s": 0.009401126261294725,
+          "mean_axial_velocity_m_s": 0.937858381492933,
+          "axial_velocity_CV": 0.23620215659320837,
+          "reverse_flow_area_fraction": 0.005535399833931842,
+          "static_pressure_area_mean_Pa": 7.830027582087751,
+          "total_pressure_flux_mean_Pa": 8.422399515656107,
+          "crossflow_rms_m_s": 0.1746489145927999
+        },
+        "gpu": {
+          "area_m2": 0.0026612009850292976,
+          "flow_m3_s": 0.009375124796536632,
+          "mean_axial_velocity_m_s": 3.522892426869224,
+          "axial_velocity_CV": 0.3414194049293352,
+          "reverse_flow_area_fraction": 0.02907893010609187,
+          "static_pressure_area_mean_Pa": -1.6981625750401674,
+          "total_pressure_flux_mean_Pa": 7.8388966361455905,
+          "crossflow_rms_m_s": 0.20519887963140054
+        },
+        "nearDownstream": {
+          "area_m2": 0.0026581978282632403,
+          "flow_m3_s": 0.009375318691319062,
+          "mean_axial_velocity_m_s": 3.5269454333444092,
+          "axial_velocity_CV": 0.33956640304794533,
+          "reverse_flow_area_fraction": 0.02834179834922181,
+          "static_pressure_area_mean_Pa": -1.7025355729463427,
+          "total_pressure_flux_mean_Pa": 7.832111488037086,
+          "crossflow_rms_m_s": 0.20757657968311255
+        },
+        "upstream": {
+          "area_m2": 0.010024035046243704,
+          "flow_m3_s": 0.009405948568074453,
+          "mean_axial_velocity_m_s": 0.9383395533517347,
+          "axial_velocity_CV": 0.17121916550346453,
+          "reverse_flow_area_fraction": 0.0,
+          "static_pressure_area_mean_Pa": 7.860945791936046,
+          "total_pressure_flux_mean_Pa": 8.425767084946616,
+          "crossflow_rms_m_s": 0.11373236333317087
+        }
+      },
+      "inletPressure": {
+        "last": [
+          600.0,
+          6.5716477835
+        ],
+        "last100_minmax": 6.5235672589,
+        "last100_max": 6.6874807262
+      },
+      "outletPressure": {
+        "last": [
+          600.0,
+          0.0
+        ],
+        "last100_minmax": 0.0,
+        "last100_max": 0.0
+      },
+      "inletFlow": {
+        "last": [
+          600.0,
+          -0.009438949
+        ],
+        "last100_minmax": -0.009438949,
+        "last100_max": -0.009438949
+      },
+      "outletFlow": {
+        "last": [
+          600.0,
+          0.0094389313879
+        ],
+        "last100_minmax": 0.0094388614644,
+        "last100_max": 0.0094390136319
+      },
+      "mass_balance_fraction": 1.8658962984776248e-06,
+      "transition_total_pressure_loss_Pa": 0.5835028795105162,
+      "transition_plus_0_5mm_loss_Pa": 0.590288027619021,
+      "total_pressure_loss_Pa": 1.1644489914601772,
+      "loss_coefficient_outlet_dynamic": 0.2542202466030819,
+      "residuals_last": {
+        "Ux": {
+          "initial": 0.0004328496691,
+          "final": 1.056450742e-05
+        },
+        "Uy": {
+          "initial": 0.0008693040642,
+          "final": 2.138091492e-05
+        },
+        "Uz": {
+          "initial": 0.0001914085295,
+          "final": 4.700644459e-06
+        },
+        "p": {
+          "initial": 0.001427664544,
+          "final": 4.047027278e-05
+        },
+        "k": {
+          "initial": 0.001410427324,
+          "final": 2.40408346e-05
+        },
+        "omega": {
+          "initial": 2.503020224e-05,
+          "final": 5.041006095e-07
+        }
+      },
+      "solver_converged": false,
+      "solver_end": true,
+      "mesh_quality": {
+        "optional_full_geometry_check_passed": false,
+        "cells": 848177,
+        "full_check_tail": " with concave angles to set concaveFaces\n    Face flatness (1 = flat, 0 = butterfly) : min = 0.7413137292  average = 0.9997224809\n   *There are 1 faces with ratio between projected and actual area < 0.8\n    Minimum ratio (minimum flatness, maximum warpage) = 0.7413137292\n  <<Writing 1 warped faces to set warpedFaces\n    Cell determinant (wellposedness) : minimum: 0.008772647707 average: 1.486780011\n    Cell determinant check OK.\n ***Concave cells (using face planes) found, number of cells: 26084\n  <<Writing 26084 concave cells to set concaveCells\n    Face interpolation weight : minimum: 0.09793280607 average: 0.4818140461\n    Face interpolation weight check OK.\n    Face volume ratio : minimum: 0.01914135199 average: 0.9061710676\n    Face volume ratio check OK.\n\nFailed 2 mesh checks.\n\nEnd\n\n"
+      },
+      "fan_to_afterTaper_loss_Pa": 0.7613211153179806,
+      "sample_flux_relative_errors": {
+        "mid": -0.009980094484585256,
+        "downstream": -0.016538868411655194,
+        "afterTaper": -0.03367117869064973,
+        "beforeFlange": -0.000272463915558796,
+        "fan": -0.004007092177876537,
+        "gpu": -0.006761791324793487,
+        "nearDownstream": -0.006741249336227884,
+        "upstream": -0.003496197714973115
+      },
+      "last100_samples": [
+        {
+          "iteration": 500.0,
+          "printed_path_loss_Pa": 0.5857093388027605,
+          "including_card_taper_loss_Pa": 0.7578050891612493,
+          "after_taper_CV": 0.32565563342107723,
+          "after_taper_crossflow_rms_m_s": 0.25715499380168105
+        },
+        {
+          "iteration": 525.0,
+          "printed_path_loss_Pa": 0.5905775019752877,
+          "including_card_taper_loss_Pa": 0.7590034030276662,
+          "after_taper_CV": 0.3268237113900207,
+          "after_taper_crossflow_rms_m_s": 0.2417931515194299
+        },
+        {
+          "iteration": 550.0,
+          "printed_path_loss_Pa": 0.5930668232541692,
+          "including_card_taper_loss_Pa": 0.7606799470833554,
+          "after_taper_CV": 0.32417977528395125,
+          "after_taper_crossflow_rms_m_s": 0.234802248013454
+        },
+        {
+          "iteration": 575.0,
+          "printed_path_loss_Pa": 0.5829162465852251,
+          "including_card_taper_loss_Pa": 0.7577152964794767,
+          "after_taper_CV": 0.3222438458700725,
+          "after_taper_crossflow_rms_m_s": 0.2383421698942377
+        },
+        {
+          "iteration": 600.0,
+          "printed_path_loss_Pa": 0.5835028798279813,
+          "including_card_taper_loss_Pa": 0.7613211155409649,
+          "after_taper_CV": 0.3234024399357867,
+          "after_taper_crossflow_rms_m_s": 0.24277049912912618
+        }
+      ],
+      "last100_ranges": {
+        "printed_path_loss_Pa": [
+          0.5829162465852251,
+          0.5930668232541692
+        ],
+        "including_card_taper_loss_Pa": [
+          0.7577152964794767,
+          0.7613211155409649
+        ],
+        "after_taper_CV": [
+          0.3222438458700725,
+          0.3268237113900207
+        ],
+        "after_taper_crossflow_rms_m_s": [
+          0.234802248013454,
+          0.25715499380168105
+        ]
+      },
+      "strict_initial_residual_target_all_1e_5_met": false
+    }
+  },
+  "scope": "Steady incompressible RANS k-omega SST, 20 CFM imposed, fan-face to card mouth plus measured 6 mm taper; empty ideal receiver beyond. No fan rotor/hub, real heatsink fins, heat, case inlet or leakage.",
+  "limitations": [
+    "600 SIMPLE iterations are not physical time and sampled ranges are not statistical uncertainty.",
+    "Full optional mesh check flags concave polyhedra and one common boundary skew face; no prism layers or matched full assembly grid convergence study.",
+    "Results are screening evidence, not a certified airflow gain, fan operating point, GPU temperature or aerodynamic optimum.",
+    "v4-wall2 keeps exactly the same internal loft and flange air geometry; outer-shell reduction does not change this comparison."
+  ]
+}

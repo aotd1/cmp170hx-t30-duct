@@ -6,7 +6,17 @@ This remix connects a 120 mm Phanteks T30 to the measured CMP170HX card interfac
 
 ## Changes from the original
 
-Measured GPU windows, rounded entry edges, fewer internal dividers, tapered horizontal splitter, smooth 75 mm transition, 5 mm collar, 4 mm fan plate and nominal 2 mm XY shell offset. v5 adds the 22 mm physical upward shift. The original attribution is retained.
+The air path was reshaped to reduce restrictions and feed the card inlet more evenly. Rounded openings, fewer internal dividers and a tapered splitter replace abrupt obstructions.
+
+During development, a preliminary airflow simulation compared our earlier **v2 and v4 prototypes at the same 20 CFM**. It indicated:
+
+- **Lower pressure loss:** about **55% less** through the duct and short card entry, from 1.70 to 0.76 Pa.
+- **More even air distribution:** variation in forward air speed across the card inlet fell from about **44% to 32%** (velocity CV; lower is better).
+- **Smaller backflow zones:** the area with air moving in the wrong direction fell from about **5.4% to 2.0%** of the sampled inlet section.
+
+These are preliminary v4-versus-v2 results, not measurements of the published v5. Strict numerical convergence was not reached; the simplified model omitted the fan rotor, heatsink fins and heat transfer. **The raised-fan v5 has not been simulated again**, and these numbers do not establish higher real fan airflow or lower GPU temperatures.
+
+[Simulation comparison and velocity maps](https://github.com/aotd1/cmp170hx-t30-duct/blob/master/docs/AIRFLOW.md)
 
 ## Printing
 

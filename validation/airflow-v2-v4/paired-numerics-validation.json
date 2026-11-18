@@ -1,0 +1,47 @@
+{
+  "system/fvSolution": {
+    "byte_identical": true,
+    "v2_sha256": "cc2c2ee6087eae1e41cf2140541b50128c3dc621b97c9fb74d65df8b6f2eafb8",
+    "v4_sha256": "cc2c2ee6087eae1e41cf2140541b50128c3dc621b97c9fb74d65df8b6f2eafb8"
+  },
+  "system/fvSchemes": {
+    "byte_identical": true,
+    "v2_sha256": "e052d9bf4bb7798768f5a7488097feedfe502a7b330c6033203f2c1f623a7e07",
+    "v4_sha256": "e052d9bf4bb7798768f5a7488097feedfe502a7b330c6033203f2c1f623a7e07"
+  },
+  "constant/transportProperties": {
+    "byte_identical": true,
+    "v2_sha256": "61c5e42249cefdf1b9da93093fa312d96fb2be28bb2422c009ff19c13bf3ecdd",
+    "v4_sha256": "61c5e42249cefdf1b9da93093fa312d96fb2be28bb2422c009ff19c13bf3ecdd"
+  },
+  "constant/turbulenceProperties": {
+    "byte_identical": true,
+    "v2_sha256": "0cc9a047db67e5af57d1a9e155f28c106ac2d2bdc66833b2b5d475172e79401a",
+    "v4_sha256": "0cc9a047db67e5af57d1a9e155f28c106ac2d2bdc66833b2b5d475172e79401a"
+  },
+  "0/p": {
+    "byte_identical": false,
+    "v2_sha256": "1691085c780d7e6ca100c15b3a437b78b4eb4c3ad0e1173b6a1fbee5a88335cb",
+    "v4_sha256": "87d922e6208806aea433b1ae0355ca28b6e1a5ef8775654a9e06bbf876c7bbcf",
+    "boundary_conditions_identical_excluding_mapped_wall_function_initial_values": true
+  },
+  "0/U": {
+    "byte_identical": false,
+    "v2_sha256": "e8e4aa01c267c7aee90c6881723679cf17a5b51b16ec37b71f48c7e9c8c67a53",
+    "v4_sha256": "9a127793acd6828971afd6a51eb8b3186416dbd54e38b1e9cae7c90509645156",
+    "boundary_conditions_identical_excluding_mapped_wall_function_initial_values": true
+  },
+  "0/k": {
+    "byte_identical": false,
+    "v2_sha256": "9c8a6b1a5d0338258716e56c4360f30d7ff69599dd6a0282fd71f70524e77c15",
+    "v4_sha256": "f4d575ce245474f92bb781a46a8f97375ca42292e56cc42ef95f32eb90ed9b4f",
+    "boundary_conditions_identical_excluding_mapped_wall_function_initial_values": true
+  },
+  "0/omega": {
+    "byte_identical": false,
+    "v2_sha256": "3d35362c553111f653084ce273bd65a88d81295dab83e3e2bfcb055384100763",
+    "v4_sha256": "d073303de9f99cecf77b9d40e75e7be598f481f4a98e6d49d606933ceb2b3e1f",
+    "boundary_conditions_identical_excluding_mapped_wall_function_initial_values": true
+  },
+  "note": "Both cases mapped from the same previous solution onto different meshes. Initial internal and wall-function value arrays differ; final discretization, relaxation, turbulence/transport models and physical boundary specifications are identical."
+}

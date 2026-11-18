@@ -43,6 +43,12 @@ Use two suitably sized GPU screws and four fan mounts compatible with the 4 mm p
 
 [Detailed installation and checks](docs/ASSEMBLY.md)
 
+## Airflow development
+
+A preliminary comparison of the earlier **v2 and v4 prototypes at the same 20 CFM** indicated about **55% lower pressure loss**, less variation in inlet air speed (44% → 32% CV) and a smaller backflow area (5.4% → 2.0%). Strict convergence was not reached, and the model excluded the fan rotor, heatsink fins and heat transfer. These figures describe v4 versus v2; the published raised-fan v5 has not been simulated again.
+
+[Results, velocity maps and limitations](docs/AIRFLOW.md)
+
 ## Evidence and limits
 
 ![Earlier v4 installed — reference only](assets/reference/v4-installed.jpg)
