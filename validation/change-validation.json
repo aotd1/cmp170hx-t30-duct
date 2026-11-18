@@ -1,0 +1,25 @@
+{
+  "variant": "v5-raise22",
+  "physical_fan_raise_mm": 22,
+  "CAD_fan_translation_mm": [
+    -22,
+    0,
+    0
+  ],
+  "production_mount_input_byte_identical": true,
+  "unchanged_GPU_interface_below_z9p999_difference_mm3": 0.0,
+  "translated_fan_plate_difference_mm3": 0.0005981925890888926,
+  "same_length_and_bore": true,
+  "same_transition_z_array": true,
+  "fixed_airway_mouth_vertices": true,
+  "fan_circle_all_vertices_translated_exactly_22mm": true,
+  "nominal_XY_wall_mm": 2,
+  "first_order_normal_wall_estimate_min_mm": 1.3856299719770693,
+  "physical_HDD_clearance": "trial fit required",
+  "CFD": "not rerun for this geometry; previous v4 results do not certify v5",
+  "structural_limits": [
+    "T30 mass230g; axial cantilever unchanged, external support still advisable",
+    "No process-matched PETG creep/fatigue or directional allowables; no numerical strength margin claimed",
+    "M3 mounting lands retained, do not overtighten"
+  ]
+}

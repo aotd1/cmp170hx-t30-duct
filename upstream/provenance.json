@@ -1,0 +1,24 @@
+{
+  "author": "kelleec / K. Crisafulli",
+  "thing_id": 7411932,
+  "model_url": "https://www.thingiverse.com/thing:7411932",
+  "files_url": "https://www.thingiverse.com/thing:7411932/files",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "license_observed": "Original Thingiverse page CC BY-SA with link to 4.0; saved HTML",
+  "retrieved_date": "2026-11-14",
+  "retrieval": "BB browser-automation desktop, fetch CDN in browser, saveFile, copied real bytes before session close",
+  "files": [
+    {
+      "name": "CMP-170HX-120mm-Fan-Adapter-V140.scad",
+      "bytes": 47854,
+      "sha256": "39e004d934fafc8d9bcba52eb47b652b9a8404112af52722ab22f46ebedf5432"
+    }
+  ],
+  "author_downloads": {
+    "V140.scad": "https://cdn.thingiverse.com/assets/4d/b8/64/7c/f3/CMP-170HX-120mm-Fan-Adapter-V140.scad",
+    "V130.scad": "https://cdn.thingiverse.com/assets/99/f7/12/d4/0d/CMP-170HX-120mm-Fan-Adapter-V130.scad",
+    "V130_POS1.stl": "https://cdn.thingiverse.com/assets/6f/f7/4e/84/0b/CMP-170HX-120mm-Fan-Adapter-V130_POS-1.stl",
+    "V130_POS2.stl": "https://cdn.thingiverse.com/assets/25/6c/bc/73/8f/CMP-170HX-120mm-Fan-Adapter-V130_POS-2.stl"
+  },
+  "note": "Only the original V1.40 SCAD and its POS1 reference export are distributed here."
+}

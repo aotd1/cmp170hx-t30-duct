@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.DS_Store
+dist/
+src/v5/*.npz
+src/v5/*_assembly.stl
+src/v5/*_fan_down.stl
+src/v5/geometry-validation.json
+src/v5/transition_flow_domain.stl

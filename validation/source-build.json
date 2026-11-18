@@ -1,0 +1,14 @@
+{
+  "independent_rebuild": true,
+  "generator": "src/v5/build_body.py",
+  "meshes": {
+    "assembly.stl": {
+      "byte_identical": true,
+      "sha256": "f5c481e6837a7f02f42e38cce871ef249883fc9c8b51f175c0edc3952d70dda1"
+    },
+    "print-orientation.stl": {
+      "byte_identical": true,
+      "sha256": "79ea9ed037190fbef277d769d8ba9b95a1582257f24cb603d82ea1ec90fd530e"
+    }
+  }
+}
