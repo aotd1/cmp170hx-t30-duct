@@ -6,4 +6,4 @@ Use assets/gallery/v5-cover.png as the cover, v5-detail.png and support previews
 
 Saved draft: https://makerworld.com/en/my/models/drafts/10616681/edit
 
-Publication still needs three photographs of the actual v5 print, the final installation check, and completion of the structured Model Origin field. The complete original author, URL and license are already present in the description. No publication button has been clicked.
+Publication still needs three photographs of the actual v5 print, and the final installation check. The structured Model Origin field links to the correct Thingiverse model; complete attribution is also present in the description. No publication button has been clicked.
