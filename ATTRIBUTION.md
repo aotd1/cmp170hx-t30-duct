@@ -16,3 +16,5 @@ Changes by aotd with CAD assistance, November 2026:
 The A100 reference in the original title is not a compatibility claim for this measured CMP170HX remix. All third-party product manuals and marketing images are excluded from this distribution.
 
 assets/reference/v4-installed.jpg is the project owner's photograph of the **earlier v4**. It is not a photograph of the v5 result. Gallery CAD renders show v5 unless explicitly labelled otherwise.
+
+assets/printed/v5/*.jpg are the project owner’s photographs of the completed v5 print, supplied on 18 November 2026 and distributed under this project’s CC BY-SA 4.0 license. HEIF originals were decoded to JPEG and publication metadata was removed; no retouching or generative image changes were applied. Installation and thermal validation are separate from this photographic print evidence.

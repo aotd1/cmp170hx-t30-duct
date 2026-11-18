@@ -2,7 +2,7 @@
 
 This remix connects a 120 mm Phanteks T30 to the measured CMP170HX card interface. The fan, collar and fan plate are raised by 22 mm compared with our earlier printed v4, to address an HDD-bay collision while keeping the GPU attachment and axial length unchanged.
 
-**Prototype status:** the earlier v4 was printed and fitted. v5 is sliced, but the finished v5 installation and operating temperatures are not yet verified. CAD renders show v5. The repository includes an installation photo of the earlier v4 for reference.
+**Printed prototype:** the three real photographs show the finished v5 in transparent light-blue PETG. The GPU attachment is unchanged from the previously fitted v4. Final v5 installation in the case, HDD clearance and operating temperatures have not yet been verified. CAD renders also show v5; the repository keeps the earlier v4 installation photo as reference.
 
 ## Changes from the original
 

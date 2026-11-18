@@ -1,0 +1,46 @@
+{
+  "received_date": "2026-11-18",
+  "owner_confirmed_revision": "v5",
+  "evidence": "Physical print photographed; installation check deferred by owner; thermal testing unconfirmed",
+  "images": [
+    {
+      "file": "printed-oblique.jpg",
+      "caption": "Printed v5, exterior and GPU attachment",
+      "source_filename": "IMG_0029.HEIC",
+      "source_sha256": "061ef9f3725abc6179d0e4178f7a42db418cd8610a0c863f46de0a1037c9ea5e",
+      "jpeg_sha256": "bd35408f354f9b57f7d6632111c52a1bd237853d93d5de0d2d7ba11bdd8335d1",
+      "size_px": [
+        3024,
+        4032
+      ],
+      "processing": "HEIF decoded with libheif 1.23.7; orientation from HEIF applied by decoder; JPEG re-encoded without EXIF/XMP/GPS; no retouching, cropping, or generative changes",
+      "observed_decoder_exif_orientation": 1
+    },
+    {
+      "file": "printed-airway.jpg",
+      "caption": "Printed v5, fan-side airway",
+      "source_filename": "IMG_0030.HEIC",
+      "source_sha256": "c8972621eb04b86552595091709eb30fa5018339d64da57c78e831fdab3f8d00",
+      "jpeg_sha256": "dd269a55479b3b9b3d3adaac23755a61f5c3ae84a423e57a57de363fc9dcdcbf",
+      "size_px": [
+        3024,
+        4032
+      ],
+      "processing": "HEIF decoded with libheif 1.23.7; orientation from HEIF applied by decoder; JPEG re-encoded without EXIF/XMP/GPS; no retouching, cropping, or generative changes",
+      "observed_decoder_exif_orientation": 1
+    },
+    {
+      "file": "printed-gpu-interface.jpg",
+      "caption": "Printed v5, GPU interface and splitter",
+      "source_filename": "IMG_0031.HEIC",
+      "source_sha256": "a626011b83bb57178d1f03d1c0a714ccd34b8ced5579dc31a636d841f3767323",
+      "jpeg_sha256": "a503439ebbb076d68a87455d833146aa67625ffe4e783d3b3b18d117eb213a15",
+      "size_px": [
+        3024,
+        4032
+      ],
+      "processing": "HEIF decoded with libheif 1.23.7; orientation from HEIF applied by decoder; JPEG re-encoded without EXIF/XMP/GPS; no retouching, cropping, or generative changes",
+      "observed_decoder_exif_orientation": 1
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 A smooth fan adapter for the measured NVIDIA CMP170HX end interface. **v5 raises the 120 mm fan by 22 mm** relative to the earlier printed v4 while retaining the GPU attachment and axial length, to address an HDD-bay clash in the project build.
 
-**Prototype:** v4 was printed and fitted. v5 was sliced and sent to the printer; final print quality, HDD clearance and operating temperatures have not yet been confirmed. No v5 CFD or cooling improvement is claimed.
+**Printed prototype:** v5 has been printed in transparent light-blue PETG and photographed from three views. Its GPU attachment is unchanged from the previously fitted v4. Final installation, HDD clearance and operating temperatures remain unverified. No v5 CFD or cooling improvement is claimed.
 
 ![v5 CAD preview](assets/gallery/v5-cover.png)
 
@@ -14,6 +14,14 @@ A smooth fan adapter for the measured NVIDIA CMP170HX end interface. **v5 raises
 - [Assembly-coordinate STL](models/v5-raised22/assembly.stl).
 - [Editable P1S / PETG 3MF](profiles/p1s/v5-raised22-p1s-petg.3mf) — reslice and map your own filament slot before printing.
 - [Build source](src/v5/build_body.py), [dimensions](src/v5/design-parameters.json) and [build guide](docs/BUILD.md).
+
+## Printed v5
+
+| Exterior | Fan-side airway | GPU interface and splitter |
+|---|---|---|
+| ![Printed v5 exterior](assets/printed/v5/printed-oblique.jpg) | ![Printed v5 airway](assets/printed/v5/printed-airway.jpg) | ![Printed v5 GPU interface](assets/printed/v5/printed-gpu-interface.jpg) |
+
+Photos supplied by the project owner on 18 November 2026. These document the printed part; the owner will check installation in the case later. [Photo provenance](assets/printed/v5/photos.json).
 
 ## Print setup
 

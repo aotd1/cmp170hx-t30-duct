@@ -7,10 +7,16 @@
   "license": "CC BY-SA 4.0",
   "upstream_url": "https://www.thingiverse.com/thing:7411932",
   "variant": "v5-raised22",
-  "physical_validation": "final_v5_fit_and_thermal_checks_pending",
+  "physical_validation": "v5_printed_and_photographed; GPU_attachment_unchanged_from_v4; installed_fit_and_thermal_checks_pending",
   "print_profile": "editable_project_only_not_a_verified_MakerWorld_profile",
   "makerworld_publish_remaining": [
-    "Three real v5 print photos / views and final fit check"
+    "Final v5 installation / HDD clearance check deferred by owner"
   ],
-  "makerworld_origin_bound": true
+  "makerworld_origin_bound": true,
+  "real_print_photos": [
+    "assets/printed/v5/printed-oblique.jpg",
+    "assets/printed/v5/printed-airway.jpg",
+    "assets/printed/v5/printed-gpu-interface.jpg"
+  ],
+  "portrait_cover": "assets/printed/v5/printed-gpu-interface.jpg"
 }
